@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#navbar{
+    background-color:#ffdebe;
+}
+
+#navbarNav{
+    margin-right: 200px;
+}
+
+#list{
+    margin-right: 30px;
+}
+
+#list:hover{
+    text-decoration: underline;
+    color: #000;
+}
+#row1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img1 {
+    width: 100%;
+    height: 700px;
+}
+
+#col2{
+    position: absolute;
+    top: 250px;
+}
+
+#head1{
+    color: #fff;
+    font-weight: 400;
+    height: 200px;
+}
+#ph1{
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+#btn1, #btn2{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+}
+
+#btn1:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#btn2:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+h1, .lead {
+    margin-bottom: 20px;
+}
+
+/* codes regarding scroller */
+
+.head2{
+    overflow: hidden;
+    padding: 15px;
+    height: 70px;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    left: 0.1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #96ae8d;
+}
+#textslider.row{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#textslider div{
+    color: #000;
+    font-family: sans-serif;
+}
+.slideCol{
+    text-align: left;
+    font-weight: 900;
+    font-size: 16px;
+    display: block;
+    white-space: nowrap;
+}
+.slideCol p{
+    margin: 0px;
+}
+.scroller{
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.scroller .inner{animation: 15s normal infinite running scroll;}
+@keyframes scroll {
+    0% {margin-top: 0px;}
+    15%{margin-top: -50px;}
+
+    25%{margin-top: -100px;}
+
+    65%{margin-top: -50px;}
+    100%{margin-top: 0px;}
+}
+.ph2, .ph3 , .ph4{
+    text-align: center;
+}
+
+/* codes regarding eat row */
+
+#row2{
+    overflow: hidden;
+}
+
+#col4{
+   position: relative;
+   top: 70px;
+}
+
+#col5{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    top: 70px;
+}
+
+.head3{
+    overflow: hidden;   
+}
+
+#btn3{
+    border: 1px solid  #000;
+    border-radius: 0px;
+}
+
+#btn3:hover{
+    background-color: #96ae8d;
+    color: #fff;
+    border: none;
+}
+
+/* codes regarding drink row*/
+
+#row3{
+    overflow: hidden;
+}
+
+
+#col7{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.head4{
+    overflow: hidden;   
+}
+
+#btn4{
+    border: 1px solid  #000;
+    border-radius: 0px;
+}
+
+#btn4:hover{
+    background-color: #96ae8d;
+    color: #fff;
+    border: none;
+}
+
+/* codes regarding enjoy row*/
+
+#row4{
+    overflow: hidden;
+}
+
+#col9{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.head5{
+    overflow: hidden;   
+}
+
+#btn5{
+    border: 1px solid  #000;
+    border-radius: 0px;
+}
+
+#btn5:hover{
+    background-color: #96ae8d;
+    color: #fff;
+    border: none;
+}
+
+/*codes regarding address */
+
+#row5{
+    border: 1ps solid #000;
+    background-color: #ffecd8;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.head6{
+    overflow: hidden;
+}
+
+/* codes regarding footer */
+
+#row6{
+    background-color: #405139;
+    padding: 50px;
+    color: #fff;
+    text-align: left;
+}
+
+.head7{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.head8{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.head9{
+    margin-top: 20px;
+    height: 50px;
+}
+
+#btn6{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    color: #fff;
+}
+
+#btn6:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#it1{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#it1:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.a{
+    color: #fff;
+}
